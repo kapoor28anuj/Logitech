@@ -1,3 +1,6 @@
 # Logitech
-This repository consist of the shiny app which I developed during my course of work at Logitech. 
-You can run this script if you can develop a dataframe as required for this script. I am unfortunately not allowed to add the dataset here due to confidentiality issues but I believe having a look at the app with the comments can be very descriptive and can help to develop a similar app for your particular use.
+This repository consist of my R scripts which I developed while working with Logitech. First one, Anomaly detection, consist of anomaly detection ensemble model which I developed for finding anomalies in sales data. It has provisions to extract data from PostgreSQL database but I have removed my credentials from code as the data is confidential. 
+But I believe the comments and code are themselves very descriptive and can be used to replicate for any use if required.
+Second script, finalapp, is for the R shiny app which gives user an interface to have a look at the interactive sales graph with results of the Anomaly detection algorithm displayed over them.It has multiple tabs which further displays the promotional database(script for which I have added here).
+You can run this script if you can develop a dataframe as required for this script. I am unfortunately not allowed to add the dataset here due to confidentiality issues but I believe having a look at the scripts with the comments can be very descriptive and can help to develop a similar app for your particular use.
+In later times I am planning to add the database structure required for these scripts but for now kindly bear with the script.
