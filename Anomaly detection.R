@@ -16,8 +16,8 @@ pacman::p_load(lubridate,zoo,xts,forecast,RPostgreSQL,dbscan,"RPostgreSQL",dplyr
 drv <- dbDriver("PostgreSQL")
 # note that "con" will be used later in each connection to the database
 con <- dbConnect(drv, dbname = "csc_amr",
-                 host = "aws11bi01", port = 5432,
-                 user = "akapoor", password = "summer2016") # use the login credentials
+                 host = "******", port = 5432,
+                 user = "*****", password = "*****") # use the login credentials
 # retrieving the database to work on
 pos_intern_project=dbGetQuery(con,"select* from pos_intern_project ")
 
